@@ -63,6 +63,7 @@ uefi_dbx_fuzzer = executable(
     'fu-efi-signature-common.c',
     'fu-efi-signature-list.c',
     'fu-efi-signature-parser.c',
+    'fu-uefi-dbx-common.c',
   ],
   include_directories : [
     root_incdir,

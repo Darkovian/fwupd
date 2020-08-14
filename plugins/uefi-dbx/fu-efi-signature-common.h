@@ -10,3 +10,5 @@
 
 gboolean	 fu_efi_signature_list_array_inclusive	(GPtrArray	*outer,
 							 GPtrArray	*inner);
+gboolean	 fu_efi_signature_list_array_has_checksum (GPtrArray	*siglists,
+							 const gchar	*checksum);
